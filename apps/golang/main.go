@@ -18,7 +18,7 @@ func main() {
 
 	num, err := strconv.ParseFloat(os.Args[1], 64)
 	if err != nil {
-		log.Fatal("Error: ", err)
+		log.Fatal("Error:", err)
 	}
 
 	result := AddSix(num)
